@@ -32,9 +32,8 @@ class TodoApp extends React.Component {
   
     render() {
       const { tasks, newTask } = this.state;
-  
       return (
-        <div>
+       <div>
           <h1>Lista de Tarefas</h1>
   
           <form
